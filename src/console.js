@@ -8,6 +8,8 @@ const clearConsole = () => {
   $consoleList.innerHTML = ''
 }
 
+console.log('TEST CI')
+
 const isValidIdentifier = (key) => /^[a-zA-Z_$][0-9a-zA-Z_$]*$/.test(key)
 
 const escapeHtml = (unsafe) => {
