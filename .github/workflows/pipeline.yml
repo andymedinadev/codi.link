@@ -71,5 +71,5 @@ jobs:
       - name: Install frontend deps
         run: bun install
 
-      - name: Compile Tauri crate (no bundling)
+      - name: Compile Tauri crate (no  bundling)
         run: cargo build --manifest-path src-tauri/Cargo.toml
